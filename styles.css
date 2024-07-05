@@ -1,0 +1,32 @@
+#board {
+  width: 80vh;
+  height: 80vmin; /*makes 80% of the veiwport height or screen height*/
+  margin: 10vmin; /* controls the space around the object*/
+  background-color: burlywood;
+  border-radius: 1mp;
+}
+
+.field {
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  background-color: antiquewhite;
+  border-radius: 0.5em;
+
+  background-image: url('img/background.svg');
+  background-size: 300%;
+
+  
+}
+
+.x{
+
+  background-position: -200%;
+
+}
+.o{
+
+  background-position: -100%;
+}
